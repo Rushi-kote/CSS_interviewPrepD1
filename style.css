@@ -1,0 +1,60 @@
+h1 {
+    text-align: center;
+}
+
+.box {
+    border: 2px solid red;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 2px;
+}
+
+#box3 {
+    position: relative;
+    top: 34px;
+    left: 34px;
+}
+
+#box33 {
+    position: absolute;
+    top: 2550px;
+    left: 34px;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 300px 100px 100px;
+    grid-gap: 2rem;
+}
+
+.item {
+    background-color: red;
+    border: 2px solid black;
+    padding: 15px 5px;
+}
+
+
+#box10 {
+    width: 100px;
+    height: 100px;
+    top: 69px;
+    position: relative;
+    background-color: greenyellow;
+    z-index: 1;
+}
+
+#box12 {
+    width: 150px;
+    height: 150px;
+    top: 3900px;
+    left: 20px;
+    position: absolute;
+    background-color: rebeccapurple;
+    z-index: 0;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
